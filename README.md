@@ -574,11 +574,4 @@ crypto> 5f4dcc3b5aa765d61d8327deb882cf99
 ---
 
 <div align="center">
-
-**🔓 CryptoBreaker - Quebre Todos os Hashes! 🔓**
-
-Feito com ❤️ para a comunidade CTF
-
-**#CTF #Hacking #Cryptography #Python**
-
 </div>
