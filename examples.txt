@@ -1,0 +1,107 @@
+# Exemplos de Teste para CryptoBreaker
+# Cole estes valores no modo interativo para testar
+
+# ========================================
+# HASHES
+# ========================================
+
+# MD5 - password
+5f4dcc3b5aa765d61d8327deb882cf99
+
+# MD5 - admin
+21232f297a57a5a743894a0e4a801fc3
+
+# SHA1 - password
+5baa61e4c9b93f3f0682250b6cf8331b7ee68fd8
+
+# SHA256 - password
+5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8
+
+# NTLM - password
+8846f7eaee8fb117ad06bdd830b7586c
+
+# bcrypt - password
+$2a$05$LhayLxezLhK1uXlbB7xqKuYyNqmR/IuKxuqG0JZVYq7dYqGPgRXHy
+
+# Linux SHA512 - password
+$6$rounds=5000$saltsalt$IxDD3jeSOb5eB1CX5LBsqZFVkJdido3OUILO5Ifz5iwMuTS4XMS130MTSuDDl3aCI6WouIL9AjRbLCelDCy.g.
+
+# ========================================
+# ENCODINGS
+# ========================================
+
+# Base64 - Hello World!
+SGVsbG8gV29ybGQh
+
+# Base64 duplo - Hello World!
+U0dWc2JHOGdWMjl5YkdRaA==
+
+# Hexadecimal - Hello
+48656c6c6f
+
+# URL Encoded - Hello World
+Hello%20World%21
+
+# ========================================
+# CIFRAS
+# ========================================
+
+# ROT13 - hello world
+uryyb jbeyq
+
+# Caesar Shift 3 - hello world
+khoor zruog
+
+# Caesar Shift 13 (ROT13) - The quick brown fox
+Gur dhvpx oebja sbk
+
+# ========================================
+# FORMATOS ESPECIAIS
+# ========================================
+
+# User:Hash format
+admin:5f4dcc3b5aa765d61d8327deb882cf99
+
+# WordPress/phpBB
+$P$B12345678901234567890123456789012
+
+# Django PBKDF2
+pbkdf2_sha256$36000$xIEozuZVAoYm$jdJKuPHKPDxXRLaGbZCZMM7+KUcHnZkQk/1k5QZq+2E=
+
+# ========================================
+# CTF CHALLENGES COMUNS
+# ========================================
+
+# Desafio 1: Base64 simples
+ZmxhZ3tIZWxsb19XMHJsZH0=
+
+# Desafio 2: Hex para ASCII
+666c61677b48333170214e477d
+
+# Desafio 3: ROT13
+syntetl0M4gUNqf
+
+# Desafio 4: MD5 fraco
+e99a18c428cb38d5f260853678922e03
+
+# Desafio 5: Base64 + Base64
+Wm14aFoxdEliR3hzYjE5WE1ISnNaSDE5
+
+# ========================================
+# COMO USAR
+# ========================================
+# 1. Rode: python3 crypto_breaker.py
+# 2. Cole qualquer linha acima (sem o comentário #)
+# 3. Veja a mágica acontecer!
+
+# Exemplo:
+# crypto> 5f4dcc3b5aa765d61d8327deb882cf99
+# [Output mostra: MD5, quebrado = "password"]
+
+# ========================================
+# DICAS
+# ========================================
+# - Use Ctrl+C para sair
+# - Digite "quit" para sair gracefully
+# - Cada linha é um teste independente
+# - Copie diretamente do CTF e cole!
